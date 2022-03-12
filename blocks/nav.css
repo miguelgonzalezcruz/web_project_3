@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
