@@ -1,8 +1,14 @@
 @import url("../vendor/normalize.css");
 
+@import url("../fonts/fonts.css");
+
+@import url("../blocks/body.css");
+
 @import url("../blocks/page.css");
 
-@import url(../blocks/logo.css);
+@import url("../blocks/hero.css");
+
+@import url("../blocks/intro-places.css");
 
 @import url(../blocks/nav.css);
 
