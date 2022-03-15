@@ -1,13 +1,11 @@
-
 .page {
   font-family: "Inter", Arial, sans-serif;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   background-size: cover;
   max-width: 1280px;
   min-width: 315px;
   color: #fff;
   margin: auto;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }

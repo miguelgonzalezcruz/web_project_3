@@ -195,7 +195,11 @@
     margin-top: 30px;
     padding-left: 16px;
     padding-right: 16px;
+    font-size: 16px;
+    line-height: 163%;
+    font-weight: 400;
   }
+
   .place-3p__description {
     margin-top: 30px;
     padding-left: 16px;
@@ -213,10 +217,5 @@
     margin-top: 30px;
     margin-bottom: 0;
     width: 288px;
-  }
-  .place__description {
-    font-size: 16px;
-    line-height: 163%;
-    font-weight: 400;
   }
 }
