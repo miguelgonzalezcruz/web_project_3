@@ -14,11 +14,11 @@
   font-weight: 400;
 }
 
-
 @media screen and (max-width: 738px) {
   .footer {
     padding-top: 88px;
   }
+}
 
 @media screen and (max-width: 500px) {
   .footer {
