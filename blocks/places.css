@@ -1,6 +1,9 @@
 .places {
   display: flex;
   flex-direction: column;
+  max-width: 987px;
+  padding-left: 145px;
+  padding-right: 148px;
 }
 
 .place {
@@ -13,8 +16,6 @@
     "button content"
     ". content";
   margin-top: 80px;
-  padding-left: 148px;
-  padding-right: 148px;
 }
 
 .place:first-of-type {
@@ -76,15 +77,6 @@
   margin-bottom: 0;
 }
 
-.place__paragraph-span {
-  display: block;
-  margin-top: 16px;
-}
-
-.place__paragraph-span:first-of-type {
-  margin-top: 0;
-}
-
 .place__button {
   width: 248px;
   height: 48px;
@@ -108,13 +100,23 @@
   background: #0063d2;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
+  .places {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .places {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .place {
     grid-template-columns: 1fr 1fr;
     grid-gap: 48px 28px;
     margin-top: 72px;
-    padding-left: 24px;
-    padding-right: 24px;
   }
 
   .place__location {
@@ -142,44 +144,51 @@
 
   .place__image {
     max-width: 460px;
-    min-width: 340px;
     position: relative;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .place {
+@media screen and (max-width: 500px) {
+  .places {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .place {
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
     padding-left: 0;
     padding-right: 0;
     grid-gap: 0;
   }
 
+  .place__image {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
   .place__location {
     margin-bottom: 30px;
     font-size: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .place__artist {
     margin-bottom: 30px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 18px;
   }
 
   .place:first-of-type {
     margin-top: 62px;
-  }
-
-  .place__image {
-    min-width: 320px;
-    max-width: none;
   }
 
   .place__description {
@@ -202,8 +211,8 @@
   .place__button {
     margin-top: 30px;
     margin-bottom: 0;
-    width: 288px;
-    margin-left: 18px;
-    margin-right: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    align-self: center;
   }
 }

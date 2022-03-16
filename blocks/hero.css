@@ -24,14 +24,17 @@
   max-width: 793px;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 769px) {
   .hero__title {
     margin-top: 50px;
-    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .hero__subtitle {
     margin-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
