@@ -12,6 +12,7 @@
 }
 
 .intro-places__title {
+  font-family: "Inter-Black", Arial, sans-serif;
   max-width: 785px;
   font-size: 54px;
   font-weight: 900;

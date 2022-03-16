@@ -23,8 +23,7 @@
 }
 
 .place__location {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter-Black", Arial, sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
