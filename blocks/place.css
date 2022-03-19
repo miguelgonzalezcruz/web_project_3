@@ -6,27 +6,19 @@
     "location artist"
     "image content"
     "button content";
-  margin-top: 32px;
+  margin-top: 80px;
 }
 
 .place:nth-of-type(4n) {
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-gap: 48px 40px;
   grid-template-areas:
     "location artist"
     "image content"
     "button content"
     ". content";
-  margin-top: 32px;
 }
 
 .place:first-of-type {
   margin-top: 92px;
-}
-
-.place:last-of-type {
-  margin-top: 80px;
 }
 
 .place__location {
@@ -117,12 +109,6 @@
     margin-top: 72px;
   }
 
-  .place:nth-child(4n) {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 48px 28px;
-    margin-top: 72px;
-  }
-
   .place__location {
     display: flex;
     flex-direction: column;
@@ -140,9 +126,6 @@
     font-weight: 400;
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .place__paragraph {
   }
 
   .place__button {
