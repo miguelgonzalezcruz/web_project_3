@@ -82,6 +82,12 @@
   background: #0063d2;
 }
 
+@media screen and (max-width: 1000px) {
+  .visit-us {
+    margin-top: 92px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .visit-us {
     margin-top: 64px;

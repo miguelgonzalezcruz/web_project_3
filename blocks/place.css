@@ -5,6 +5,17 @@
   grid-template-areas:
     "location artist"
     "image content"
+    "button content";
+  margin-top: 32px;
+}
+
+.place:nth-of-type(4n) {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "location artist"
+    "image content"
     "button content"
     ". content";
   margin-top: 32px;
@@ -48,6 +59,7 @@
   letter-spacing: 1.44px;
   color: #aaaaaa;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .place__artist-name {
@@ -105,6 +117,12 @@
     margin-top: 72px;
   }
 
+  .place:nth-child(4n) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 28px;
+    margin-top: 72px;
+  }
+
   .place__location {
     display: flex;
     flex-direction: column;
@@ -121,6 +139,10 @@
     line-height: 163%;
     font-weight: 400;
     padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .place__paragraph {
   }
 
   .place__button {
@@ -136,6 +158,15 @@
 
 @media screen and (max-width: 540px) {
   .place {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    grid-gap: 0;
+  }
+
+  .place:nth-of-type(4n) {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
