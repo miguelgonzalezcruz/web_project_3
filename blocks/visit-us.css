@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: inherit;
-  margin-top: 92px;
+  margin-top: 52px;
   padding-left: 48px;
   padding-right: 48px;
   min-height: 740px;
@@ -23,7 +23,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 0.3;
   transition: 0.3s;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .visit-us__title {
-  font-family: "Inter-Black", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -82,7 +82,7 @@
   background: #0063d2;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .visit-us {
     margin-top: 64px;
     padding-left: 0;

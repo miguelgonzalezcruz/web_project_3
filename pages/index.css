@@ -6,9 +6,13 @@
 
 @import url("../blocks/header.css");
 
+@import url("../blocks/logo.css");
+
 @import url("../blocks/hero.css");
 
 @import url("../blocks/intro-places.css");
+
+@import url("../blocks/place-cards.css");
 
 @import url("../blocks/gallery.css");
 
