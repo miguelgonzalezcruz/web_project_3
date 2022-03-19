@@ -1,19 +1,11 @@
 .header {
-  padding-top: 34px;
-  padding-bottom: 0;
   display: flex;
   justify-content: center;
+  padding-top: 34px;
 }
 
 @media screen and (max-width: 540px) {
   .header {
     padding-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
-    box-sizing: border-box;
-  }
-
-  .header__logo {
-    grid-column: 2;
   }
 }
